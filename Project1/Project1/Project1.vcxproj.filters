@@ -18,10 +18,10 @@
     <ClCompile Include="c언어 과제.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="구조체 파일 입력.c">
+    <ClCompile Include="구조체 파일 입력 test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="구조체 파일 출력.c">
+    <ClCompile Include="구조체 파일 출력 test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
