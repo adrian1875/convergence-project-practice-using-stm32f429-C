@@ -1,4 +1,4 @@
-#if 1
+#if 0
 #include <stdio.h>
 #define MAX (1)
 
@@ -15,6 +15,7 @@ int main(void)
 	test_st_out test_arr_out[MAX] = { 0, };
 	char buffer[100] = { 0, };
 	int i;
+
 	fgets(buffer, sizeof(buffer), out_test);
 	for (i = 0; i < MAX; i++) {
 		fscanf(out_test, "%d %s %f", &test_arr_out[i].num, test_arr_out[i].name, &test_arr_out[i].mean);
