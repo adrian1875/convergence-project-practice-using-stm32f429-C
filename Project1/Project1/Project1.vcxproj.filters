@@ -24,5 +24,8 @@
     <ClCompile Include="구조체 파일 출력 test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="정렬함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
