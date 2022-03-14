@@ -27,5 +27,8 @@
     <ClCompile Include="정렬함수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="최대값과 최소값.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

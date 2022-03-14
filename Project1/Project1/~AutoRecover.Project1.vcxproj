@@ -143,6 +143,7 @@
     <ClCompile Include="구조체 파일 입력 test.c" />
     <ClCompile Include="구조체 파일 출력 test.c" />
     <ClCompile Include="정렬함수.c" />
+    <ClCompile Include="최대값과 최소값.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
