@@ -116,8 +116,7 @@ int main(void)
   /* USER CODE END 2 */
 	
 	int i; 
-	int j;
-	
+		
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -139,9 +138,9 @@ int main(void)
 	}
 	
 	 //<- off
-	for(j = 0; j < 8; j++)
+	for(i = 0; i < 8; i++)
 	{	
-		GPIOF->ODR = 0xff >> j;
+		GPIOF->ODR = 0xff >> i;
 		HAL_Delay(500);
 	}
 	*/
@@ -220,7 +219,7 @@ int main(void)
 			HAL_Delay(350);
 		}
 		*/
-	
+ 	
 	
 		
     /* USER CODE BEGIN 3 */
