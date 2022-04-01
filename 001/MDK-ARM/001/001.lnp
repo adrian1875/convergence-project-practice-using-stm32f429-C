@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"001\startup_stm32f429xx.o"
+"001\main.o"
+"001\stm32f4xx_it.o"
+"001\stm32f4xx_hal_msp.o"
+"001\stm32f4xx_hal_i2c.o"
+"001\stm32f4xx_hal_i2c_ex.o"
+"001\stm32f4xx_hal_rcc.o"
+"001\stm32f4xx_hal_rcc_ex.o"
+"001\stm32f4xx_hal_flash.o"
+"001\stm32f4xx_hal_flash_ex.o"
+"001\stm32f4xx_hal_flash_ramfunc.o"
+"001\stm32f4xx_hal_gpio.o"
+"001\stm32f4xx_hal_dma_ex.o"
+"001\stm32f4xx_hal_dma.o"
+"001\stm32f4xx_hal_pwr.o"
+"001\stm32f4xx_hal_pwr_ex.o"
+"001\stm32f4xx_hal_cortex.o"
+"001\stm32f4xx_hal.o"
+"001\stm32f4xx_hal_exti.o"
+"001\stm32f4xx_hal_tim.o"
+"001\stm32f4xx_hal_tim_ex.o"
+"001\stm32f4xx_hal_uart.o"
+"001\system_stm32f4xx.o"
+--strict --scatter "001\001.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "001.map" -o 001\001.axf
